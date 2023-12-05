@@ -26,3 +26,9 @@ fun testSolution(input: Int, expectedOutput: Int) {
   println("${input} did not match ${expectedOutput}")
  }
 }
+
+fun testSolution(input: Long, expectedOutput: Long) {
+ check(input == expectedOutput) {
+  println("${input} did not match ${expectedOutput}")
+ }
+}
