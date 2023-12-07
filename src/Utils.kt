@@ -77,3 +77,6 @@ class Benchmark {
         }
     }
 }
+
+val numberRegex = Regex("^\\d+$")
+fun String.isNumber() = matches(numberRegex)
